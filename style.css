@@ -1,0 +1,196 @@
+body{    
+    background: linear-gradient(145deg,#0b1020 0%,#152238 30%,#1e3c72 70%,#274881 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+
+/* header of the website */
+
+header{
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+    height: 10vmin;
+    background-color: #74747454;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+}
+
+.symbol_img{
+    width: 7vmin;
+    height: 7vmin;
+    margin-top: 1vmin;
+    margin-left: 1vmin;
+}
+
+.header-to-do{
+    display: flex;
+    align-items: center;
+    font-size: 2.5vmin;
+    margin-left: 8vmin;
+    text-shadow: 1px 3px 0 #0f0f0f, 1px 13px 5px #353535, 2px 2px 2px rgba(31, 28, 27, 0);
+    color: #d9e6fc;
+}
+
+/* content area */
+.content-area{
+    margin: 10vmin;
+    padding: 5vmin;
+    border-radius: 5vmin;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow:0 8px 32px rgba(0, 0, 0, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 4vmin;
+    text-shadow: 1px 3px 0 #0f0f0f, 1px 13px 5px #353535, 2px 2px 2px rgba(31, 28, 27, 0);
+    color: #d9e6fc;
+}
+
+/* enter_area*/
+.enter_area{
+    display: flex;
+    align-content: space-between;
+    margin-bottom: 3vmin;
+}
+
+.enter_button{
+    padding: 0.5vmin 1vmin 0.5vmin 1vmin;
+    margin: 2vmin 0.5vmin 2vmin 0.5vmin;
+    border-radius: 3vmin;
+    background-color: #222941;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 2px solid rgba(144, 145, 199, 0.2);
+    color: white;
+    cursor: pointer;
+}
+
+.enter_button:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scale(1.06);
+    filter: drop-shadow(0 0 8px #30383d);
+    transition: 0.7s; 
+    
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5vmin;
+    background: rgba(255, 255, 255, 0.082);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow:0 8px 32px rgba(0, 0, 0, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.3);
+    color: white;
+    width: 80%;
+    margin: 2vmin auto; 
+    padding: 1vmin 2vmin 1vmin 2vmin;
+    font-size: 1.5vmin;
+}
+
+.input-field:hover{
+    transform: scale(1.06);
+    filter: drop-shadow(0 0 8px #929ca3);
+    transition: 0.7s;   
+}
+
+
+/*To-Do field*/
+.To-Do{
+    border-radius: 2vmin;
+    padding: 2vmin;
+    border-radius: 2vmin;
+    background: rgba(255, 255, 255, 0.233);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow:0 8px 32px rgba(0, 0, 0, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.note{
+    display: flex;
+    align-items: center;
+    gap: 1vmin;
+    width: 100%;
+    margin-bottom: 1.5vmin;
+}
+
+.img_with{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.img_without{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.img_with:hover{
+    transform: scale(0.8);
+    filter: drop-shadow(0 0 8px #929ca3);
+    transition: 0.7s;
+}
+
+.img_without:hover{
+    transform: scale(0.8);
+    filter: drop-shadow(0 0 8px #929ca3);
+    transition: 0.7s;
+}
+
+.delead{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+}
+
+.delead:hover{
+    transform: scale(0.8);
+    filter: drop-shadow(0 0 8px #929ca3);
+    transition: 0.7s;   
+}
+
+.in_progress_to_do{
+    margin: 0;
+}
+
+.finish_to_do{
+    margin: 0;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+
+/* footer*/
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5vmin;
+    background-color: #7474743b;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+}
+
+
+
